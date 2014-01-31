@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E509E57189951480001C616 /* TSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E509E50189951480001C616 /* TSAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E509E58189951480001C616 /* TSAlertViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E51189951480001C616 /* TSAlertViewBackground.png */; };
+		3E509E59189951480001C616 /* TSAlertViewBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E52189951480001C616 /* TSAlertViewBackground2.png */; };
+		3E509E5A189951480001C616 /* TSAlertViewButtonBackground_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E53189951480001C616 /* TSAlertViewButtonBackground_Highlighted.png */; };
+		3E509E5B189951480001C616 /* TSAlertViewButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E54189951480001C616 /* TSAlertViewButtonBackground.png */; };
+		3E509E5C189951480001C616 /* TSAlertViewCancelButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E55189951480001C616 /* TSAlertViewCancelButtonBackground.png */; };
+		3E509E5D189951480001C616 /* TSAlertViewMessageListViewShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E56189951480001C616 /* TSAlertViewMessageListViewShadow.png */; };
+		3E509E60189A90A50001C616 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E5E189A90A50001C616 /* Icon-40@2x.png */; };
+		3E509E61189A90A50001C616 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E509E5F189A90A50001C616 /* Icon-60@2x.png */; };
+		3E62EB4B16C6AC6C00A196DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB4A16C6AC6C00A196DA /* UIKit.framework */; };
+		3E62EB4D16C6AC6C00A196DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB4C16C6AC6C00A196DA /* Foundation.framework */; };
+		3E62EB4F16C6AC6C00A196DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB4E16C6AC6C00A196DA /* CoreGraphics.framework */; };
+		3E62EB5516C6AC6C00A196DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB5316C6AC6C00A196DA /* InfoPlist.strings */; };
+		3E62EB5716C6AC6C00A196DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62EB5616C6AC6C00A196DA /* main.m */; };
+		3E62EB5B16C6AC6C00A196DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62EB5A16C6AC6C00A196DA /* AppDelegate.m */; };
+		3E62EB5D16C6AC6C00A196DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB5C16C6AC6C00A196DA /* Default.png */; };
+		3E62EB5F16C6AC6C00A196DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB5E16C6AC6C00A196DA /* Default@2x.png */; };
+		3E62EB6116C6AC6C00A196DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB6016C6AC6C00A196DA /* Default-568h@2x.png */; };
+		3E62EB6416C6AC6C00A196DA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB6216C6AC6C00A196DA /* MainStoryboard_iPhone.storyboard */; };
+		3E62EB6A16C6AC6C00A196DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62EB6916C6AC6C00A196DA /* MainViewController.m */; };
+		3E62EB6D16C6AC6C00A196DA /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62EB6C16C6AC6C00A196DA /* FlipsideViewController.m */; };
+		3E62EB7516C6AC6C00A196DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB7416C6AC6C00A196DA /* SenTestingKit.framework */; };
+		3E62EB7616C6AC6C00A196DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB4A16C6AC6C00A196DA /* UIKit.framework */; };
+		3E62EB7716C6AC6C00A196DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB4C16C6AC6C00A196DA /* Foundation.framework */; };
+		3E62EB7F16C6AC6C00A196DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E62EB7D16C6AC6C00A196DA /* InfoPlist.strings */; };
+		3E62EB8216C6AC6C00A196DA /* BluetoothSharingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62EB8116C6AC6C00A196DA /* BluetoothSharingAppTests.m */; };
+		3E62EB8C16C7A1FD00A196DA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62EB8B16C7A1FD00A196DA /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3E62ED2E16C7D23C00A196DA /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0A16C7D23C00A196DA /* 01.png */; };
+		3E62ED2F16C7D23C00A196DA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0B16C7D23C00A196DA /* 02.png */; };
+		3E62ED3016C7D23C00A196DA /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0C16C7D23C00A196DA /* 03.png */; };
+		3E62ED3116C7D23C00A196DA /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0D16C7D23C00A196DA /* 04.png */; };
+		3E62ED3216C7D23C00A196DA /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0E16C7D23C00A196DA /* 05.png */; };
+		3E62ED3316C7D23C00A196DA /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED0F16C7D23C00A196DA /* 06.png */; };
+		3E62ED3416C7D23C00A196DA /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1016C7D23C00A196DA /* 07.png */; };
+		3E62ED3516C7D23C00A196DA /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1116C7D23C00A196DA /* 08.png */; };
+		3E62ED3616C7D23C00A196DA /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1216C7D23C00A196DA /* 09.png */; };
+		3E62ED3716C7D23C00A196DA /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1316C7D23C00A196DA /* 10.png */; };
+		3E62ED3816C7D23C00A196DA /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1416C7D23C00A196DA /* 11.png */; };
+		3E62ED3916C7D23C00A196DA /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1516C7D23C00A196DA /* 12.png */; };
+		3E62ED3A16C7D23C00A196DA /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1616C7D23C00A196DA /* 13.png */; };
+		3E62ED3B16C7D23C00A196DA /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1716C7D23C00A196DA /* 14.png */; };
+		3E62ED3C16C7D23C00A196DA /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1816C7D23C00A196DA /* 15.png */; };
+		3E62ED3D16C7D23C00A196DA /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1916C7D23C00A196DA /* 16.png */; };
+		3E62ED3E16C7D23C00A196DA /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1A16C7D23C00A196DA /* 17.png */; };
+		3E62ED3F16C7D23C00A196DA /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1B16C7D23C00A196DA /* 18.png */; };
+		3E62ED4016C7D23C00A196DA /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1C16C7D23C00A196DA /* 19.png */; };
+		3E62ED4116C7D23C00A196DA /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1D16C7D23C00A196DA /* 20.png */; };
+		3E62ED4216C7D23C00A196DA /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1E16C7D23C00A196DA /* 21.png */; };
+		3E62ED4316C7D23C00A196DA /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED1F16C7D23C00A196DA /* 22.png */; };
+		3E62ED4416C7D23C00A196DA /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2016C7D23C00A196DA /* 23.png */; };
+		3E62ED4516C7D23C00A196DA /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2116C7D23C00A196DA /* 24.png */; };
+		3E62ED4616C7D23C00A196DA /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2216C7D23C00A196DA /* 25.png */; };
+		3E62ED4716C7D23C00A196DA /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2316C7D23C00A196DA /* 26.png */; };
+		3E62ED4816C7D23C00A196DA /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2416C7D23C00A196DA /* 27.png */; };
+		3E62ED4916C7D23C00A196DA /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2516C7D23C00A196DA /* 28.png */; };
+		3E62ED4A16C7D23C00A196DA /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2616C7D23C00A196DA /* 29.png */; };
+		3E62ED4B16C7D23C00A196DA /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2716C7D23C00A196DA /* 30.png */; };
+		3E62ED4C16C7D23C00A196DA /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2816C7D23C00A196DA /* 31.png */; };
+		3E62ED4D16C7D23C00A196DA /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2916C7D23C00A196DA /* 32.png */; };
+		3E62ED4E16C7D23C00A196DA /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2A16C7D23C00A196DA /* 33.png */; };
+		3E62ED4F16C7D23C00A196DA /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2B16C7D23C00A196DA /* 34.png */; };
+		3E62ED5016C7D23C00A196DA /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2C16C7D23C00A196DA /* 35.png */; };
+		3E62ED5116C7D23C00A196DA /* 36.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED2D16C7D23C00A196DA /* 36.png */; };
+		3E62ED5416C7D40500A196DA /* bluetooth_title.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3E62ED5316C7D40500A196DA /* bluetooth_title.jpeg */; };
+		3E62ED5716C7D73A00A196DA /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62ED5616C7D73800A196DA /* PeripheralViewController.m */; };
+		3E62ED5A16C7D75300A196DA /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E62ED5916C7D75200A196DA /* CentralViewController.m */; };
+		3E62ED5C16C7E15D00A196DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62ED5B16C7E15D00A196DA /* SystemConfiguration.framework */; };
+		3EAD5F9216CE90840093461F /* SBTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9116CE90840093461F /* SBTableAlert.m */; };
+		3EAD5F9616CFD4940093461F /* app_qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9516CFD4940093461F /* app_qrcode.png */; };
+		3EAD5F9D16CFEA730093461F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9716CFEA6D0093461F /* Icon-72.png */; };
+		3EAD5F9E16CFEA730093461F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9816CFEA720093461F /* Icon-Small-50.png */; };
+		3EAD5F9F16CFEA730093461F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9916CFEA720093461F /* Icon-Small.png */; };
+		3EAD5FA016CFEA730093461F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9A16CFEA720093461F /* Icon-Small@2x.png */; };
+		3EAD5FA116CFEA730093461F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9B16CFEA730093461F /* Icon.png */; };
+		3EAD5FA216CFEA730093461F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAD5F9C16CFEA730093461F /* Icon@2x.png */; };
+		3EFFC09916CBCC2200073CBE /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC08F16CBCC2200073CBE /* bubbleMine.png */; };
+		3EFFC09A16CBCC2200073CBE /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09016CBCC2200073CBE /* bubbleMine@2x.png */; };
+		3EFFC09B16CBCC2200073CBE /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09116CBCC2200073CBE /* bubbleSomeone.png */; };
+		3EFFC09C16CBCC2200073CBE /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09216CBCC2200073CBE /* bubbleSomeone@2x.png */; };
+		3EFFC09D16CBCC2200073CBE /* missingAvatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09316CBCC2200073CBE /* missingAvatar.png */; };
+		3EFFC09E16CBCC2200073CBE /* missingAvatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09416CBCC2200073CBE /* missingAvatar@2x.png */; };
+		3EFFC09F16CBCC2200073CBE /* typingMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09516CBCC2200073CBE /* typingMine.png */; };
+		3EFFC0A016CBCC2200073CBE /* typingMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09616CBCC2200073CBE /* typingMine@2x.png */; };
+		3EFFC0A116CBCC2200073CBE /* typingSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09716CBCC2200073CBE /* typingSomeone.png */; };
+		3EFFC0A216CBCC2200073CBE /* typingSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC09816CBCC2200073CBE /* typingSomeone@2x.png */; };
+		3EFFC0AE16CBCC2E00073CBE /* NSBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0A416CBCC2E00073CBE /* NSBubbleData.m */; };
+		3EFFC0AF16CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0A616CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.m */; };
+		3EFFC0B016CBCC2E00073CBE /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0A816CBCC2E00073CBE /* UIBubbleTableView.m */; };
+		3EFFC0B116CBCC2E00073CBE /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0AA16CBCC2E00073CBE /* UIBubbleTableViewCell.m */; };
+		3EFFC0B216CBCC2E00073CBE /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0AD16CBCC2E00073CBE /* UIBubbleTypingTableViewCell.m */; };
+		3EFFC0B616CBF54E00073CBE /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFC0B516CBF54E00073CBE /* DAKeyboardControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E62EB7816C6AC6C00A196DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E62EB3F16C6AC6C00A196DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E62EB4616C6AC6C00A196DA;
+			remoteInfo = BluetoothSharingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E509E4F189951480001C616 /* TSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAlertView.h; path = Library/TSAlertView/TSAlertView.h; sourceTree = "<group>"; };
+		3E509E50189951480001C616 /* TSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSAlertView.m; path = Library/TSAlertView/TSAlertView.m; sourceTree = "<group>"; };
+		3E509E51189951480001C616 /* TSAlertViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewBackground.png; path = Library/TSAlertView/TSAlertViewBackground.png; sourceTree = "<group>"; };
+		3E509E52189951480001C616 /* TSAlertViewBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewBackground2.png; path = Library/TSAlertView/TSAlertViewBackground2.png; sourceTree = "<group>"; };
+		3E509E53189951480001C616 /* TSAlertViewButtonBackground_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewButtonBackground_Highlighted.png; path = Library/TSAlertView/TSAlertViewButtonBackground_Highlighted.png; sourceTree = "<group>"; };
+		3E509E54189951480001C616 /* TSAlertViewButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewButtonBackground.png; path = Library/TSAlertView/TSAlertViewButtonBackground.png; sourceTree = "<group>"; };
+		3E509E55189951480001C616 /* TSAlertViewCancelButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewCancelButtonBackground.png; path = Library/TSAlertView/TSAlertViewCancelButtonBackground.png; sourceTree = "<group>"; };
+		3E509E56189951480001C616 /* TSAlertViewMessageListViewShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TSAlertViewMessageListViewShadow.png; path = Library/TSAlertView/TSAlertViewMessageListViewShadow.png; sourceTree = "<group>"; };
+		3E509E5E189A90A50001C616 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		3E509E5F189A90A50001C616 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		3E62EB4716C6AC6C00A196DA /* BluetoothSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E62EB4A16C6AC6C00A196DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E62EB4C16C6AC6C00A196DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E62EB4E16C6AC6C00A196DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E62EB5216C6AC6C00A196DA /* BluetoothSharingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothSharingApp-Info.plist"; sourceTree = "<group>"; };
+		3E62EB5416C6AC6C00A196DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E62EB5616C6AC6C00A196DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E62EB5816C6AC6C00A196DA /* BluetoothSharingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothSharingApp-Prefix.pch"; sourceTree = "<group>"; };
+		3E62EB5916C6AC6C00A196DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E62EB5A16C6AC6C00A196DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E62EB5C16C6AC6C00A196DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3E62EB5E16C6AC6C00A196DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3E62EB6016C6AC6C00A196DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3E62EB6316C6AC6C00A196DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3E62EB6816C6AC6C00A196DA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3E62EB6916C6AC6C00A196DA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3E62EB6B16C6AC6C00A196DA /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		3E62EB6C16C6AC6C00A196DA /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3E62EB7316C6AC6C00A196DA /* BluetoothSharingAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothSharingAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E62EB7416C6AC6C00A196DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E62EB7C16C6AC6C00A196DA /* BluetoothSharingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothSharingAppTests-Info.plist"; sourceTree = "<group>"; };
+		3E62EB7E16C6AC6C00A196DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E62EB8016C6AC6C00A196DA /* BluetoothSharingAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothSharingAppTests.h; sourceTree = "<group>"; };
+		3E62EB8116C6AC6C00A196DA /* BluetoothSharingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothSharingAppTests.m; sourceTree = "<group>"; };
+		3E62EB8B16C7A1FD00A196DA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3E62ED0A16C7D23C00A196DA /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = pixel_image/01.png; sourceTree = "<group>"; };
+		3E62ED0B16C7D23C00A196DA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.png; path = pixel_image/02.png; sourceTree = "<group>"; };
+		3E62ED0C16C7D23C00A196DA /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.png; path = pixel_image/03.png; sourceTree = "<group>"; };
+		3E62ED0D16C7D23C00A196DA /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.png; path = pixel_image/04.png; sourceTree = "<group>"; };
+		3E62ED0E16C7D23C00A196DA /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 05.png; path = pixel_image/05.png; sourceTree = "<group>"; };
+		3E62ED0F16C7D23C00A196DA /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.png; path = pixel_image/06.png; sourceTree = "<group>"; };
+		3E62ED1016C7D23C00A196DA /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 07.png; path = pixel_image/07.png; sourceTree = "<group>"; };
+		3E62ED1116C7D23C00A196DA /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 08.png; path = pixel_image/08.png; sourceTree = "<group>"; };
+		3E62ED1216C7D23C00A196DA /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09.png; path = pixel_image/09.png; sourceTree = "<group>"; };
+		3E62ED1316C7D23C00A196DA /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.png; path = pixel_image/10.png; sourceTree = "<group>"; };
+		3E62ED1416C7D23C00A196DA /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = pixel_image/11.png; sourceTree = "<group>"; };
+		3E62ED1516C7D23C00A196DA /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.png; path = pixel_image/12.png; sourceTree = "<group>"; };
+		3E62ED1616C7D23C00A196DA /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13.png; path = pixel_image/13.png; sourceTree = "<group>"; };
+		3E62ED1716C7D23C00A196DA /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14.png; path = pixel_image/14.png; sourceTree = "<group>"; };
+		3E62ED1816C7D23C00A196DA /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15.png; path = pixel_image/15.png; sourceTree = "<group>"; };
+		3E62ED1916C7D23C00A196DA /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16.png; path = pixel_image/16.png; sourceTree = "<group>"; };
+		3E62ED1A16C7D23C00A196DA /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17.png; path = pixel_image/17.png; sourceTree = "<group>"; };
+		3E62ED1B16C7D23C00A196DA /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 18.png; path = pixel_image/18.png; sourceTree = "<group>"; };
+		3E62ED1C16C7D23C00A196DA /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 19.png; path = pixel_image/19.png; sourceTree = "<group>"; };
+		3E62ED1D16C7D23C00A196DA /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 20.png; path = pixel_image/20.png; sourceTree = "<group>"; };
+		3E62ED1E16C7D23C00A196DA /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 21.png; path = pixel_image/21.png; sourceTree = "<group>"; };
+		3E62ED1F16C7D23C00A196DA /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 22.png; path = pixel_image/22.png; sourceTree = "<group>"; };
+		3E62ED2016C7D23C00A196DA /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 23.png; path = pixel_image/23.png; sourceTree = "<group>"; };
+		3E62ED2116C7D23C00A196DA /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 24.png; path = pixel_image/24.png; sourceTree = "<group>"; };
+		3E62ED2216C7D23C00A196DA /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 25.png; path = pixel_image/25.png; sourceTree = "<group>"; };
+		3E62ED2316C7D23C00A196DA /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 26.png; path = pixel_image/26.png; sourceTree = "<group>"; };
+		3E62ED2416C7D23C00A196DA /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 27.png; path = pixel_image/27.png; sourceTree = "<group>"; };
+		3E62ED2516C7D23C00A196DA /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 28.png; path = pixel_image/28.png; sourceTree = "<group>"; };
+		3E62ED2616C7D23C00A196DA /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29.png; path = pixel_image/29.png; sourceTree = "<group>"; };
+		3E62ED2716C7D23C00A196DA /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 30.png; path = pixel_image/30.png; sourceTree = "<group>"; };
+		3E62ED2816C7D23C00A196DA /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 31.png; path = pixel_image/31.png; sourceTree = "<group>"; };
+		3E62ED2916C7D23C00A196DA /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 32.png; path = pixel_image/32.png; sourceTree = "<group>"; };
+		3E62ED2A16C7D23C00A196DA /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 33.png; path = pixel_image/33.png; sourceTree = "<group>"; };
+		3E62ED2B16C7D23C00A196DA /* 34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 34.png; path = pixel_image/34.png; sourceTree = "<group>"; };
+		3E62ED2C16C7D23C00A196DA /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 35.png; path = pixel_image/35.png; sourceTree = "<group>"; };
+		3E62ED2D16C7D23C00A196DA /* 36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 36.png; path = pixel_image/36.png; sourceTree = "<group>"; };
+		3E62ED5316C7D40500A196DA /* bluetooth_title.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluetooth_title.jpeg; sourceTree = "<group>"; };
+		3E62ED5516C7D73800A196DA /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		3E62ED5616C7D73800A196DA /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		3E62ED5816C7D75100A196DA /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		3E62ED5916C7D75200A196DA /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		3E62ED5B16C7E15D00A196DA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3E62ED5D16C7F2AB00A196DA /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		3EAD5F9016CE90840093461F /* SBTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBTableAlert.h; path = Library/SBTableAlert/SBTableAlert.h; sourceTree = "<group>"; };
+		3EAD5F9116CE90840093461F /* SBTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBTableAlert.m; path = Library/SBTableAlert/SBTableAlert.m; sourceTree = "<group>"; };
+		3EAD5F9516CFD4940093461F /* app_qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_qrcode.png; sourceTree = "<group>"; };
+		3EAD5F9716CFEA6D0093461F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3EAD5F9816CFEA720093461F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3EAD5F9916CFEA720093461F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3EAD5F9A16CFEA720093461F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3EAD5F9B16CFEA730093461F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3EAD5F9C16CFEA730093461F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3EFFC08F16CBCC2200073CBE /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubbleMine.png; path = Library/UIBubbleTableView/images/bubbleMine.png; sourceTree = "<group>"; };
+		3EFFC09016CBCC2200073CBE /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubbleMine@2x.png"; path = "Library/UIBubbleTableView/images/bubbleMine@2x.png"; sourceTree = "<group>"; };
+		3EFFC09116CBCC2200073CBE /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubbleSomeone.png; path = Library/UIBubbleTableView/images/bubbleSomeone.png; sourceTree = "<group>"; };
+		3EFFC09216CBCC2200073CBE /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubbleSomeone@2x.png"; path = "Library/UIBubbleTableView/images/bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		3EFFC09316CBCC2200073CBE /* missingAvatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missingAvatar.png; path = Library/UIBubbleTableView/images/missingAvatar.png; sourceTree = "<group>"; };
+		3EFFC09416CBCC2200073CBE /* missingAvatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missingAvatar@2x.png"; path = "Library/UIBubbleTableView/images/missingAvatar@2x.png"; sourceTree = "<group>"; };
+		3EFFC09516CBCC2200073CBE /* typingMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typingMine.png; path = Library/UIBubbleTableView/images/typingMine.png; sourceTree = "<group>"; };
+		3EFFC09616CBCC2200073CBE /* typingMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "typingMine@2x.png"; path = "Library/UIBubbleTableView/images/typingMine@2x.png"; sourceTree = "<group>"; };
+		3EFFC09716CBCC2200073CBE /* typingSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typingSomeone.png; path = Library/UIBubbleTableView/images/typingSomeone.png; sourceTree = "<group>"; };
+		3EFFC09816CBCC2200073CBE /* typingSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "typingSomeone@2x.png"; path = "Library/UIBubbleTableView/images/typingSomeone@2x.png"; sourceTree = "<group>"; };
+		3EFFC0A316CBCC2E00073CBE /* NSBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSBubbleData.h; path = Library/UIBubbleTableView/src/NSBubbleData.h; sourceTree = "<group>"; };
+		3EFFC0A416CBCC2E00073CBE /* NSBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBubbleData.m; path = Library/UIBubbleTableView/src/NSBubbleData.m; sourceTree = "<group>"; };
+		3EFFC0A516CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleHeaderTableViewCell.h; path = Library/UIBubbleTableView/src/UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
+		3EFFC0A616CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleHeaderTableViewCell.m; path = Library/UIBubbleTableView/src/UIBubbleHeaderTableViewCell.m; sourceTree = "<group>"; };
+		3EFFC0A716CBCC2E00073CBE /* UIBubbleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableView.h; path = Library/UIBubbleTableView/src/UIBubbleTableView.h; sourceTree = "<group>"; };
+		3EFFC0A816CBCC2E00073CBE /* UIBubbleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTableView.m; path = Library/UIBubbleTableView/src/UIBubbleTableView.m; sourceTree = "<group>"; };
+		3EFFC0A916CBCC2E00073CBE /* UIBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableViewCell.h; path = Library/UIBubbleTableView/src/UIBubbleTableViewCell.h; sourceTree = "<group>"; };
+		3EFFC0AA16CBCC2E00073CBE /* UIBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTableViewCell.m; path = Library/UIBubbleTableView/src/UIBubbleTableViewCell.m; sourceTree = "<group>"; };
+		3EFFC0AB16CBCC2E00073CBE /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableViewDataSource.h; path = Library/UIBubbleTableView/src/UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
+		3EFFC0AC16CBCC2E00073CBE /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTypingTableViewCell.h; path = Library/UIBubbleTableView/src/UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
+		3EFFC0AD16CBCC2E00073CBE /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTypingTableViewCell.m; path = Library/UIBubbleTableView/src/UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
+		3EFFC0B416CBF54E00073CBE /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAKeyboardControl.h; path = Library/DAKeyboardControl/DAKeyboardControl.h; sourceTree = "<group>"; };
+		3EFFC0B516CBF54E00073CBE /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAKeyboardControl.m; path = Library/DAKeyboardControl/DAKeyboardControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E62EB4416C6AC6C00A196DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E62ED5C16C7E15D00A196DA /* SystemConfiguration.framework in Frameworks */,
+				3E62EB8C16C7A1FD00A196DA /* CoreBluetooth.framework in Frameworks */,
+				3E62EB4B16C6AC6C00A196DA /* UIKit.framework in Frameworks */,
+				3E62EB4D16C6AC6C00A196DA /* Foundation.framework in Frameworks */,
+				3E62EB4F16C6AC6C00A196DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E62EB6F16C6AC6C00A196DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E62EB7516C6AC6C00A196DA /* SenTestingKit.framework in Frameworks */,
+				3E62EB7616C6AC6C00A196DA /* UIKit.framework in Frameworks */,
+				3E62EB7716C6AC6C00A196DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E509E4E1899512B0001C616 /* TSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3E509E4F189951480001C616 /* TSAlertView.h */,
+				3E509E50189951480001C616 /* TSAlertView.m */,
+				3E509E51189951480001C616 /* TSAlertViewBackground.png */,
+				3E509E52189951480001C616 /* TSAlertViewBackground2.png */,
+				3E509E53189951480001C616 /* TSAlertViewButtonBackground_Highlighted.png */,
+				3E509E54189951480001C616 /* TSAlertViewButtonBackground.png */,
+				3E509E55189951480001C616 /* TSAlertViewCancelButtonBackground.png */,
+				3E509E56189951480001C616 /* TSAlertViewMessageListViewShadow.png */,
+			);
+			name = TSAlertView;
+			sourceTree = "<group>";
+		};
+		3E62EB3E16C6AC6C00A196DA = {
+			isa = PBXGroup;
+			children = (
+				3E62EB5016C6AC6C00A196DA /* BluetoothSharingApp */,
+				3E62EB7A16C6AC6C00A196DA /* BluetoothSharingAppTests */,
+				3E62EB4916C6AC6C00A196DA /* Frameworks */,
+				3E62EB4816C6AC6C00A196DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E62EB4816C6AC6C00A196DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E62EB4716C6AC6C00A196DA /* BluetoothSharingApp.app */,
+				3E62EB7316C6AC6C00A196DA /* BluetoothSharingAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E62EB4916C6AC6C00A196DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E62ED5B16C7E15D00A196DA /* SystemConfiguration.framework */,
+				3E62EB8B16C7A1FD00A196DA /* CoreBluetooth.framework */,
+				3E62EB4A16C6AC6C00A196DA /* UIKit.framework */,
+				3E62EB4C16C6AC6C00A196DA /* Foundation.framework */,
+				3E62EB4E16C6AC6C00A196DA /* CoreGraphics.framework */,
+				3E62EB7416C6AC6C00A196DA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E62EB5016C6AC6C00A196DA /* BluetoothSharingApp */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC08B16CBCAD400073CBE /* Library */,
+				3E62EB5916C6AC6C00A196DA /* AppDelegate.h */,
+				3E62EB5A16C6AC6C00A196DA /* AppDelegate.m */,
+				3E62EB6216C6AC6C00A196DA /* MainStoryboard_iPhone.storyboard */,
+				3E62EB6816C6AC6C00A196DA /* MainViewController.h */,
+				3E62EB6916C6AC6C00A196DA /* MainViewController.m */,
+				3E62EB6B16C6AC6C00A196DA /* FlipsideViewController.h */,
+				3E62EB6C16C6AC6C00A196DA /* FlipsideViewController.m */,
+				3E62ED5516C7D73800A196DA /* PeripheralViewController.h */,
+				3E62ED5616C7D73800A196DA /* PeripheralViewController.m */,
+				3E62ED5816C7D75100A196DA /* CentralViewController.h */,
+				3E62ED5916C7D75200A196DA /* CentralViewController.m */,
+				3E62EB5116C6AC6C00A196DA /* Supporting Files */,
+			);
+			path = BluetoothSharingApp;
+			sourceTree = "<group>";
+		};
+		3E62EB5116C6AC6C00A196DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E62ED5D16C7F2AB00A196DA /* AppConstant.h */,
+				3E62ED5216C7D3F900A196DA /* image */,
+				3E62ECC116C7D1BB00A196DA /* Pixel Images */,
+				3E62EB5216C6AC6C00A196DA /* BluetoothSharingApp-Info.plist */,
+				3E62EB5316C6AC6C00A196DA /* InfoPlist.strings */,
+				3E62EB5616C6AC6C00A196DA /* main.m */,
+				3E62EB5816C6AC6C00A196DA /* BluetoothSharingApp-Prefix.pch */,
+				3E62EB5C16C6AC6C00A196DA /* Default.png */,
+				3E509E5E189A90A50001C616 /* Icon-40@2x.png */,
+				3E509E5F189A90A50001C616 /* Icon-60@2x.png */,
+				3EAD5F9716CFEA6D0093461F /* Icon-72.png */,
+				3EAD5F9816CFEA720093461F /* Icon-Small-50.png */,
+				3EAD5F9916CFEA720093461F /* Icon-Small.png */,
+				3EAD5F9A16CFEA720093461F /* Icon-Small@2x.png */,
+				3EAD5F9B16CFEA730093461F /* Icon.png */,
+				3EAD5F9C16CFEA730093461F /* Icon@2x.png */,
+				3E62EB5E16C6AC6C00A196DA /* Default@2x.png */,
+				3E62EB6016C6AC6C00A196DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E62EB7A16C6AC6C00A196DA /* BluetoothSharingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E62EB8016C6AC6C00A196DA /* BluetoothSharingAppTests.h */,
+				3E62EB8116C6AC6C00A196DA /* BluetoothSharingAppTests.m */,
+				3E62EB7B16C6AC6C00A196DA /* Supporting Files */,
+			);
+			path = BluetoothSharingAppTests;
+			sourceTree = "<group>";
+		};
+		3E62EB7B16C6AC6C00A196DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E62EB7C16C6AC6C00A196DA /* BluetoothSharingAppTests-Info.plist */,
+				3E62EB7D16C6AC6C00A196DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E62ECC116C7D1BB00A196DA /* Pixel Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E62ED0A16C7D23C00A196DA /* 01.png */,
+				3E62ED0B16C7D23C00A196DA /* 02.png */,
+				3E62ED0C16C7D23C00A196DA /* 03.png */,
+				3E62ED0D16C7D23C00A196DA /* 04.png */,
+				3E62ED0E16C7D23C00A196DA /* 05.png */,
+				3E62ED0F16C7D23C00A196DA /* 06.png */,
+				3E62ED1016C7D23C00A196DA /* 07.png */,
+				3E62ED1116C7D23C00A196DA /* 08.png */,
+				3E62ED1216C7D23C00A196DA /* 09.png */,
+				3E62ED1316C7D23C00A196DA /* 10.png */,
+				3E62ED1416C7D23C00A196DA /* 11.png */,
+				3E62ED1516C7D23C00A196DA /* 12.png */,
+				3E62ED1616C7D23C00A196DA /* 13.png */,
+				3E62ED1716C7D23C00A196DA /* 14.png */,
+				3E62ED1816C7D23C00A196DA /* 15.png */,
+				3E62ED1916C7D23C00A196DA /* 16.png */,
+				3E62ED1A16C7D23C00A196DA /* 17.png */,
+				3E62ED1B16C7D23C00A196DA /* 18.png */,
+				3E62ED1C16C7D23C00A196DA /* 19.png */,
+				3E62ED1D16C7D23C00A196DA /* 20.png */,
+				3E62ED1E16C7D23C00A196DA /* 21.png */,
+				3E62ED1F16C7D23C00A196DA /* 22.png */,
+				3E62ED2016C7D23C00A196DA /* 23.png */,
+				3E62ED2116C7D23C00A196DA /* 24.png */,
+				3E62ED2216C7D23C00A196DA /* 25.png */,
+				3E62ED2316C7D23C00A196DA /* 26.png */,
+				3E62ED2416C7D23C00A196DA /* 27.png */,
+				3E62ED2516C7D23C00A196DA /* 28.png */,
+				3E62ED2616C7D23C00A196DA /* 29.png */,
+				3E62ED2716C7D23C00A196DA /* 30.png */,
+				3E62ED2816C7D23C00A196DA /* 31.png */,
+				3E62ED2916C7D23C00A196DA /* 32.png */,
+				3E62ED2A16C7D23C00A196DA /* 33.png */,
+				3E62ED2B16C7D23C00A196DA /* 34.png */,
+				3E62ED2C16C7D23C00A196DA /* 35.png */,
+				3E62ED2D16C7D23C00A196DA /* 36.png */,
+			);
+			name = "Pixel Images";
+			sourceTree = "<group>";
+		};
+		3E62ED5216C7D3F900A196DA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD5F9516CFD4940093461F /* app_qrcode.png */,
+				3E62ED5316C7D40500A196DA /* bluetooth_title.jpeg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3EAD5F8F16CE90730093461F /* SBTableAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD5F9016CE90840093461F /* SBTableAlert.h */,
+				3EAD5F9116CE90840093461F /* SBTableAlert.m */,
+			);
+			name = SBTableAlert;
+			sourceTree = "<group>";
+		};
+		3EFFC08B16CBCAD400073CBE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3E509E4E1899512B0001C616 /* TSAlertView */,
+				3EAD5F8F16CE90730093461F /* SBTableAlert */,
+				3EFFC0B316CBF51800073CBE /* DAKeyboardControl */,
+				3EFFC08C16CBCBFD00073CBE /* UIBubbleTableView */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		3EFFC08C16CBCBFD00073CBE /* UIBubbleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC08E16CBCC1000073CBE /* images */,
+				3EFFC08D16CBCC0B00073CBE /* src */,
+			);
+			name = UIBubbleTableView;
+			sourceTree = "<group>";
+		};
+		3EFFC08D16CBCC0B00073CBE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC0A316CBCC2E00073CBE /* NSBubbleData.h */,
+				3EFFC0A416CBCC2E00073CBE /* NSBubbleData.m */,
+				3EFFC0A516CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.h */,
+				3EFFC0A616CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.m */,
+				3EFFC0A716CBCC2E00073CBE /* UIBubbleTableView.h */,
+				3EFFC0A816CBCC2E00073CBE /* UIBubbleTableView.m */,
+				3EFFC0A916CBCC2E00073CBE /* UIBubbleTableViewCell.h */,
+				3EFFC0AA16CBCC2E00073CBE /* UIBubbleTableViewCell.m */,
+				3EFFC0AB16CBCC2E00073CBE /* UIBubbleTableViewDataSource.h */,
+				3EFFC0AC16CBCC2E00073CBE /* UIBubbleTypingTableViewCell.h */,
+				3EFFC0AD16CBCC2E00073CBE /* UIBubbleTypingTableViewCell.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		3EFFC08E16CBCC1000073CBE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC08F16CBCC2200073CBE /* bubbleMine.png */,
+				3EFFC09016CBCC2200073CBE /* bubbleMine@2x.png */,
+				3EFFC09116CBCC2200073CBE /* bubbleSomeone.png */,
+				3EFFC09216CBCC2200073CBE /* bubbleSomeone@2x.png */,
+				3EFFC09316CBCC2200073CBE /* missingAvatar.png */,
+				3EFFC09416CBCC2200073CBE /* missingAvatar@2x.png */,
+				3EFFC09516CBCC2200073CBE /* typingMine.png */,
+				3EFFC09616CBCC2200073CBE /* typingMine@2x.png */,
+				3EFFC09716CBCC2200073CBE /* typingSomeone.png */,
+				3EFFC09816CBCC2200073CBE /* typingSomeone@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3EFFC0B316CBF51800073CBE /* DAKeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC0B416CBF54E00073CBE /* DAKeyboardControl.h */,
+				3EFFC0B516CBF54E00073CBE /* DAKeyboardControl.m */,
+			);
+			name = DAKeyboardControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E62EB4616C6AC6C00A196DA /* BluetoothSharingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E62EB8516C6AC6C00A196DA /* Build configuration list for PBXNativeTarget "BluetoothSharingApp" */;
+			buildPhases = (
+				3E62EB4316C6AC6C00A196DA /* Sources */,
+				3E62EB4416C6AC6C00A196DA /* Frameworks */,
+				3E62EB4516C6AC6C00A196DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothSharingApp;
+			productName = BluetoothSharingApp;
+			productReference = 3E62EB4716C6AC6C00A196DA /* BluetoothSharingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E62EB7216C6AC6C00A196DA /* BluetoothSharingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E62EB8816C6AC6C00A196DA /* Build configuration list for PBXNativeTarget "BluetoothSharingAppTests" */;
+			buildPhases = (
+				3E62EB6E16C6AC6C00A196DA /* Sources */,
+				3E62EB6F16C6AC6C00A196DA /* Frameworks */,
+				3E62EB7016C6AC6C00A196DA /* Resources */,
+				3E62EB7116C6AC6C00A196DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E62EB7916C6AC6C00A196DA /* PBXTargetDependency */,
+			);
+			name = BluetoothSharingAppTests;
+			productName = BluetoothSharingAppTests;
+			productReference = 3E62EB7316C6AC6C00A196DA /* BluetoothSharingAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E62EB3F16C6AC6C00A196DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ZZB;
+				TargetAttributes = {
+					3E62EB4616C6AC6C00A196DA = {
+						DevelopmentTeam = VSGYBR2G3B;
+					};
+				};
+			};
+			buildConfigurationList = 3E62EB4216C6AC6C00A196DA /* Build configuration list for PBXProject "BluetoothSharingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E62EB3E16C6AC6C00A196DA;
+			productRefGroup = 3E62EB4816C6AC6C00A196DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E62EB4616C6AC6C00A196DA /* BluetoothSharingApp */,
+				3E62EB7216C6AC6C00A196DA /* BluetoothSharingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E62EB4516C6AC6C00A196DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E62EB5516C6AC6C00A196DA /* InfoPlist.strings in Resources */,
+				3E62EB5D16C6AC6C00A196DA /* Default.png in Resources */,
+				3E62EB5F16C6AC6C00A196DA /* Default@2x.png in Resources */,
+				3E62EB6116C6AC6C00A196DA /* Default-568h@2x.png in Resources */,
+				3E62EB6416C6AC6C00A196DA /* MainStoryboard_iPhone.storyboard in Resources */,
+				3E62ED2E16C7D23C00A196DA /* 01.png in Resources */,
+				3E509E5C189951480001C616 /* TSAlertViewCancelButtonBackground.png in Resources */,
+				3E62ED2F16C7D23C00A196DA /* 02.png in Resources */,
+				3E509E5B189951480001C616 /* TSAlertViewButtonBackground.png in Resources */,
+				3E62ED3016C7D23C00A196DA /* 03.png in Resources */,
+				3E62ED3116C7D23C00A196DA /* 04.png in Resources */,
+				3E62ED3216C7D23C00A196DA /* 05.png in Resources */,
+				3E62ED3316C7D23C00A196DA /* 06.png in Resources */,
+				3E62ED3416C7D23C00A196DA /* 07.png in Resources */,
+				3E62ED3516C7D23C00A196DA /* 08.png in Resources */,
+				3E509E60189A90A50001C616 /* Icon-40@2x.png in Resources */,
+				3E62ED3616C7D23C00A196DA /* 09.png in Resources */,
+				3E62ED3716C7D23C00A196DA /* 10.png in Resources */,
+				3E62ED3816C7D23C00A196DA /* 11.png in Resources */,
+				3E62ED3916C7D23C00A196DA /* 12.png in Resources */,
+				3E62ED3A16C7D23C00A196DA /* 13.png in Resources */,
+				3E62ED3B16C7D23C00A196DA /* 14.png in Resources */,
+				3E62ED3C16C7D23C00A196DA /* 15.png in Resources */,
+				3E62ED3D16C7D23C00A196DA /* 16.png in Resources */,
+				3E62ED3E16C7D23C00A196DA /* 17.png in Resources */,
+				3E509E5D189951480001C616 /* TSAlertViewMessageListViewShadow.png in Resources */,
+				3E62ED3F16C7D23C00A196DA /* 18.png in Resources */,
+				3E62ED4016C7D23C00A196DA /* 19.png in Resources */,
+				3E62ED4116C7D23C00A196DA /* 20.png in Resources */,
+				3E62ED4216C7D23C00A196DA /* 21.png in Resources */,
+				3E509E61189A90A50001C616 /* Icon-60@2x.png in Resources */,
+				3E62ED4316C7D23C00A196DA /* 22.png in Resources */,
+				3E62ED4416C7D23C00A196DA /* 23.png in Resources */,
+				3E509E59189951480001C616 /* TSAlertViewBackground2.png in Resources */,
+				3E62ED4516C7D23C00A196DA /* 24.png in Resources */,
+				3E62ED4616C7D23C00A196DA /* 25.png in Resources */,
+				3E62ED4716C7D23C00A196DA /* 26.png in Resources */,
+				3E62ED4816C7D23C00A196DA /* 27.png in Resources */,
+				3E62ED4916C7D23C00A196DA /* 28.png in Resources */,
+				3E509E5A189951480001C616 /* TSAlertViewButtonBackground_Highlighted.png in Resources */,
+				3E62ED4A16C7D23C00A196DA /* 29.png in Resources */,
+				3E62ED4B16C7D23C00A196DA /* 30.png in Resources */,
+				3E62ED4C16C7D23C00A196DA /* 31.png in Resources */,
+				3E62ED4D16C7D23C00A196DA /* 32.png in Resources */,
+				3E62ED4E16C7D23C00A196DA /* 33.png in Resources */,
+				3E62ED4F16C7D23C00A196DA /* 34.png in Resources */,
+				3E62ED5016C7D23C00A196DA /* 35.png in Resources */,
+				3E62ED5116C7D23C00A196DA /* 36.png in Resources */,
+				3E62ED5416C7D40500A196DA /* bluetooth_title.jpeg in Resources */,
+				3EFFC09916CBCC2200073CBE /* bubbleMine.png in Resources */,
+				3EFFC09A16CBCC2200073CBE /* bubbleMine@2x.png in Resources */,
+				3EFFC09B16CBCC2200073CBE /* bubbleSomeone.png in Resources */,
+				3EFFC09C16CBCC2200073CBE /* bubbleSomeone@2x.png in Resources */,
+				3E509E58189951480001C616 /* TSAlertViewBackground.png in Resources */,
+				3EFFC09D16CBCC2200073CBE /* missingAvatar.png in Resources */,
+				3EFFC09E16CBCC2200073CBE /* missingAvatar@2x.png in Resources */,
+				3EFFC09F16CBCC2200073CBE /* typingMine.png in Resources */,
+				3EFFC0A016CBCC2200073CBE /* typingMine@2x.png in Resources */,
+				3EFFC0A116CBCC2200073CBE /* typingSomeone.png in Resources */,
+				3EFFC0A216CBCC2200073CBE /* typingSomeone@2x.png in Resources */,
+				3EAD5F9616CFD4940093461F /* app_qrcode.png in Resources */,
+				3EAD5F9D16CFEA730093461F /* Icon-72.png in Resources */,
+				3EAD5F9E16CFEA730093461F /* Icon-Small-50.png in Resources */,
+				3EAD5F9F16CFEA730093461F /* Icon-Small.png in Resources */,
+				3EAD5FA016CFEA730093461F /* Icon-Small@2x.png in Resources */,
+				3EAD5FA116CFEA730093461F /* Icon.png in Resources */,
+				3EAD5FA216CFEA730093461F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E62EB7016C6AC6C00A196DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E62EB7F16C6AC6C00A196DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E62EB7116C6AC6C00A196DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E62EB4316C6AC6C00A196DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E509E57189951480001C616 /* TSAlertView.m in Sources */,
+				3E62EB5716C6AC6C00A196DA /* main.m in Sources */,
+				3E62EB5B16C6AC6C00A196DA /* AppDelegate.m in Sources */,
+				3E62EB6A16C6AC6C00A196DA /* MainViewController.m in Sources */,
+				3E62EB6D16C6AC6C00A196DA /* FlipsideViewController.m in Sources */,
+				3E62ED5716C7D73A00A196DA /* PeripheralViewController.m in Sources */,
+				3E62ED5A16C7D75300A196DA /* CentralViewController.m in Sources */,
+				3EFFC0AE16CBCC2E00073CBE /* NSBubbleData.m in Sources */,
+				3EFFC0AF16CBCC2E00073CBE /* UIBubbleHeaderTableViewCell.m in Sources */,
+				3EFFC0B016CBCC2E00073CBE /* UIBubbleTableView.m in Sources */,
+				3EFFC0B116CBCC2E00073CBE /* UIBubbleTableViewCell.m in Sources */,
+				3EFFC0B216CBCC2E00073CBE /* UIBubbleTypingTableViewCell.m in Sources */,
+				3EFFC0B616CBF54E00073CBE /* DAKeyboardControl.m in Sources */,
+				3EAD5F9216CE90840093461F /* SBTableAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E62EB6E16C6AC6C00A196DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E62EB8216C6AC6C00A196DA /* BluetoothSharingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E62EB7916C6AC6C00A196DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E62EB4616C6AC6C00A196DA /* BluetoothSharingApp */;
+			targetProxy = 3E62EB7816C6AC6C00A196DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E62EB5316C6AC6C00A196DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E62EB5416C6AC6C00A196DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E62EB6216C6AC6C00A196DA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E62EB6316C6AC6C00A196DA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3E62EB7D16C6AC6C00A196DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E62EB7E16C6AC6C00A196DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E62EB8316C6AC6C00A196DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E62EB8416C6AC6C00A196DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E62EB8616C6AC6C00A196DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothSharingApp/BluetoothSharingApp-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothSharingApp/BluetoothSharingApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1FED7B60-A724-44A9-8287-EAF97D53A3F8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E62EB8716C6AC6C00A196DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothSharingApp/BluetoothSharingApp-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothSharingApp/BluetoothSharingApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "89E92368-E917-4035-8DC2-2E85661DFEED";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E62EB8916C6AC6C00A196DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothSharingApp.app/BluetoothSharingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothSharingApp/BluetoothSharingApp-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothSharingAppTests/BluetoothSharingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E62EB8A16C6AC6C00A196DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothSharingApp.app/BluetoothSharingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothSharingApp/BluetoothSharingApp-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothSharingAppTests/BluetoothSharingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E62EB4216C6AC6C00A196DA /* Build configuration list for PBXProject "BluetoothSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E62EB8316C6AC6C00A196DA /* Debug */,
+				3E62EB8416C6AC6C00A196DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E62EB8516C6AC6C00A196DA /* Build configuration list for PBXNativeTarget "BluetoothSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E62EB8616C6AC6C00A196DA /* Debug */,
+				3E62EB8716C6AC6C00A196DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E62EB8816C6AC6C00A196DA /* Build configuration list for PBXNativeTarget "BluetoothSharingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E62EB8916C6AC6C00A196DA /* Debug */,
+				3E62EB8A16C6AC6C00A196DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E62EB3F16C6AC6C00A196DA /* Project object */;
+}

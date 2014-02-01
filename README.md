@@ -6,7 +6,7 @@ BluetoothSharingApp is a simple app for two iOS device can transfer data to each
 [https://itunes.apple.com/app/bluetooth-photo-share-messenger/id604386827](http://)
 
 ## Screenshot
-![Screenshot](https://github.com/ZZBHuang/BluetoothSharingApp/blob/master/screenshot-1.png)
+![Screenshot](https://raw.github.com/ZZBHuang/BluetoothSharingApp/master/screenshot-1.png)
 
 ##Reference
 This App also imports 3rd library below:
